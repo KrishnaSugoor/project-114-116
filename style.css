@@ -1,0 +1,18 @@
+h3{font-size:25px;}
+.btn-success:hover{
+    background-color:rgb(68, 3, 247);
+}
+.btn-info:hover{
+    background-color: rgb(1, 254, 119);
+}
+canvas{
+    animation-name:lol;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+}
+@keyframes lol{
+    from{ box-shadow:5px 5px 40px turquoise ;}
+    to{ box-shadow:5px 5px 40px rgb(123, 30, 194) ;}
+    
+
+}
